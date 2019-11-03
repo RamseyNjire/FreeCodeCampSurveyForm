@@ -112,3 +112,7 @@ button {
     font-size: 0.9rem;
     color: #e4e4e4;
 }
+
+.text-center {
+    text-align: center;
+}
