@@ -123,6 +123,7 @@ form {
     background: var(--color-darkblue-alpha);
     padding: 2.5rem 0.625rem;
     border-radius: 0.25rem;
+    margin-bottom: 0.75rem;
 }
 
 @media (min-width: 480px) {
