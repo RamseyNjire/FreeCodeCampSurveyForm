@@ -165,8 +165,15 @@ form {
 .submit-button {
     display: block;
     width: 100%;padding: 0.75rem;
-    background-color: var(--color-green);
+    background: none;
+    border: 2px solid var(--color-green);
+    outline: none;
     color: inherit;
-    border-radius: 2px;
+    border-radius: 24px;
     cursor: pointer;
+    transition: 0.75s;
+}
+
+.submit-button:hover {
+    background: var(--color-green);
 }
